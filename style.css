@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+:root{
+    --background: #161a23;
+    --color1: #fffdf2;
+    --color2: #755cf6;
+    --color3: #ff8c41;
+    --color4: #20c750;
+    --color5: #222631;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Space Mono', monospace;
+
+}
+
+body{
+  text-align: center;
+    height: 100vh;
+    background: var(--background);
+    color: #fffdf2;
+}
+
+/* h1{
+    filter: drop-shadow(0 0 5px rgba(0,0,0,0.3))
+} */
+
+.bi{
+    font-size: 2rem;
+    color: var(--color2);
+}
+
+.navbar-brand{
+    color: var(--color1);
+}
+
+.m1{
+    max-width: 1000px;
+    margin: 20px auto;
+}
+
+.m1-con{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px , 1fr));
+    grid-gap: 1rem;
+    padding: 1rem;
+}
+
+.m1-item{
+    display: flex;
+    height: 200px;
+    position: relative;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0.5rem;
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+    transition: 0.3s;
+    border-radius: 10px;
+    background-color: var(--color5);
+}
+
+.led{
+    flex-direction: column;
+    justify-content: center;
+}
+
+#led1,#led2{
+    width: 100px;
+    height: 50px;
+
+}
+
+.led{
+    font-size: 3rem;
+}
+
